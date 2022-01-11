@@ -1,0 +1,180 @@
+@import "fonts.css";
+
+* {
+    line-height: 22px;
+}
+
+.logo {
+    margin-top: 51px;  
+    float: left;   
+}
+
+    .call {
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-size: 22px;
+        letter-spacing: 0.025em;
+        color: #767676;
+    
+        margin-top: 65px;
+        float: right;
+       
+        
+}
+
+.header2 {
+    display:flex;
+    flex-direction:column;
+    height:80px;
+    background-color: #777777;
+    
+}
+
+.header2_1 {
+    margin-top: 600px;
+    height:220px;
+    background-color: #777777;
+    
+}
+.header_menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'PT Sans';
+    font-size: 28px;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+
+
+}
+.one:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.one {
+    color: #ffffff;
+    text-decoration: none;
+}
+.slider {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 200;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 200;
+    margin-top: -40px;
+    
+    
+}
+
+
+
+
+
+.news{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 300px;
+    height: 440px;
+    letter-spacing: 0.025em;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    background-color: grey;
+    color: white;
+    float: left ;
+    margin-top: 15px;
+    padding-top: 10px;
+ }
+
+.news2 {
+    margin-top: 35px;
+    width: 605px;
+    height: 400px;
+    float: right;
+    right: 0;
+    color:#777777;
+    font-family: 'PT Sans';
+    line-height: 22px;
+    
+
+    
+    
+    
+    
+    
+}
+
+
+.novosti {
+    Text: Новости;
+font-family: 'PT Sans';
+font-size: 40px;
+line-height: 46px;
+font-weight: 700;
+letter-spacing: 0.025em;
+color: #ffffff;0px;
+
+}
+.wrapper {
+    width:100%;
+}
+
+.container { 
+    background-color:#dcdcdc;
+    width: 980px;
+    margin: 0 auto;  
+}
+
+.header {
+    background-color: #dcdcdc;
+
+    height:230px;
+    width: 100%;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color:#dcdcdc;
+    margin: 0 auto; 
+    
+}
+
+.container3 { 
+    background-color:#dcdcdc;
+    width: 980px;
+    margin: 0 auto;  
+}
+
+.two {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.three {
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.big_text {
+    font-family: 'PT Sans';
+font-size: 40px;
+line-height: 22px;
+font-weight: 400;
+letter-spacing: 0.025em;
+color: #767676; }
